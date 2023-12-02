@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Catalog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .project:hover {
+            transform: scale(1.03);
+        }
+
+        .project-date {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .project-info {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .project h2 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #007BFF;
+        }
+
+        .project p {
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Project Catalog</h1>
+    </header>
+
+    <main>
+        <div class="project">
+            <a href="WeB1.html">
+                <img src="Image1.png" alt="Project 1">
+            </a>
+            <div class="project-info">
+                    <h2>Extension Circuit Board Project</h2>
+                <p>A Wooden extension circuit capable of supplying power to various electronic devices.</p>
+                <p><a href="WeB1.html">Learn more</a></p><br>
+                <p class="project-date">Published on: December 1, 2023</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

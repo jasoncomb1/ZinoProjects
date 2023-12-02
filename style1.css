@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.homepage {
+  float: left;
+  color: #fff;
+  padding: 1em;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+h2 {
+  color: #333;
+}
+
+.upss{
+  text-align: center;
+}
+
+.upsss{
+  background-color: #ccffcc;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.ul-styled {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.challenge {
+  background-color: #ffcccc;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.solution {
+  background-color: #ccffcc;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
